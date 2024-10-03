@@ -12,13 +12,13 @@ This project aims to analyze the pricing of Airbnb listings in New York City usi
 ## Data Cleaning and Preparation
 The initial steps of this project focused on loading the dataset, handling missing values, and performing basic feature engineering using Python. Below are the steps followed:
 
-### 1. Loading the Dataset
+## 1. Loading the Dataset
 The dataset was loaded using `pandas` and explored to understand its structure and identify any missing values.
 
 ```python
 import pandas as pd
 
-# Load the cleaned dataset
+## Load the cleaned dataset
 file_path = r'C:\Users\Christopher Pruna\Desktop\Airbnb Data Analysis Project\Cleaned_NYC_Airbnb.csv'
 airbnb_df = pd.read_csv(file_path)
 print(airbnb_df.head())
@@ -27,14 +27,14 @@ We filled missing values in the reviews_per_month column with zeros and dropped 
 
 python
 Copy code
-# Fill missing values in 'reviews_per_month' with 0
+## Fill missing values in 'reviews_per_month' with 0
 airbnb_df['reviews_per_month'].fillna(0, inplace=True)
 3. Feature Engineering
 A new feature, price_per_person, was created to analyze the price effectiveness of each listing.
 
 python
 Copy code
-# Create 'price_per_person' feature
+## Create 'price_per_person' feature
 airbnb_df['price_per_person'] = airbnb_df.apply(
     lambda row: row['price'] / row['accommodates'] if row['accommodates'] > 0 else 0, axis=1
 )
@@ -43,7 +43,7 @@ The cleaned dataset was saved to be used in Tableau for visualization.
 
 python
 Copy code
-# Save the cleaned dataset
+## Save the cleaned dataset
 clean_file_path = r'C:\Users\Christopher Pruna\Desktop\Airbnb Data Analysis Project\Cleaned_NYC_Airbnb.csv'
 airbnb_df.to_csv(clean_file_path, index=False)
 print("Cleaned dataset saved successfully.")
@@ -67,19 +67,19 @@ plt.show()
 Tableau Visualizations
 After cleaning and preparing the dataset, we used Tableau to create interactive visualizations. Below are the visualizations and their descriptions:
 
-1. Price vs. Number of Reviews
+##1. Price vs. Number of Reviews
 This scatter plot shows the relationship between price per night and the number of reviews. Higher-priced listings tend to have fewer reviews.
 
 
-2. Map View of Listings
+##2. Map View of Listings
 The map visualization highlights the locations of Airbnb listings across NYC, with larger dots representing higher prices.
 
 
-3. Average Price by Neighborhood Group
+##3. Average Price by Neighborhood Group
 This bar chart compares the average price across different boroughs in NYC. Manhattan has the highest average price, followed by Brooklyn.
 
 
-4. Average Price by Room Type
+##4. Average Price by Room Type
 This bar chart shows the average price for each room type. Entire homes/apartments are significantly more expensive than private or shared rooms.
 
 
