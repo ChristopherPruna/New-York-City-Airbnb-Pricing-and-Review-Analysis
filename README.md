@@ -70,22 +70,22 @@ After cleaning and preparing the dataset, we used Tableau to create interactive 
 ## 1. Price vs. Number of Reviews
 This scatter plot shows the relationship between price per night and the number of reviews. Higher-priced listings tend to have fewer reviews.
 
-https://raw.githubusercontent.com/ChristopherPruna/New-York-City-Airbnb-Pricing-and-Review-Analysis/refs/heads/main/Screenshot%202024-10-02%20213132.png
+![image](https://github.com/user-attachments/assets/a378d133-570a-46c3-a2c3-c164ad22165d)
 
 ## 2. Map View of Listings
 The map visualization highlights the locations of Airbnb listings across NYC, with larger dots representing higher prices.
 
-![Map View of Listings](Screenshot 2024-10-02 213206.png)
+![image](https://github.com/user-attachments/assets/87a80038-5f87-45ff-bde7-80311ddc3e91)
 
 ## 3. Average Price by Neighborhood Group
 This bar chart compares the average price across different boroughs in NYC. Manhattan has the highest average price, followed by Brooklyn.
 
-![Average Price by Neighborhood Group](Screenshot 2024-10-02 213218.png)
+![image](https://github.com/user-attachments/assets/0cb8a91a-d852-4571-8ad7-8e618cba40ee)
 
 ## 4. Average Price by Room Type
 This bar chart shows the average price for each room type. Entire homes/apartments are significantly more expensive than private or shared rooms.
 
-![Average Price by Room Type](Screenshot 2024-10-02 213230.png)
+![image](https://github.com/user-attachments/assets/644b369f-c466-4c9c-b433-024928281c7e)
 
 # Conclusion and Insights
 Based on the analysis, the following conclusions were drawn:
