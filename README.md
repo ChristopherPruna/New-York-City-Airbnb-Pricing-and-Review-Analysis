@@ -70,7 +70,7 @@ After cleaning and preparing the dataset, we used Tableau to create interactive 
 ## 1. Price vs. Number of Reviews
 This scatter plot shows the relationship between price per night and the number of reviews. Higher-priced listings tend to have fewer reviews.
 
-![Price vs. Number of Reviews](Screenshot 2024-10-02 213132.png)
+(Screenshot 2024-10-02 213132.png)
 
 ## 2. Map View of Listings
 The map visualization highlights the locations of Airbnb listings across NYC, with larger dots representing higher prices.
